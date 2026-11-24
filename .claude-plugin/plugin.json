@@ -1,0 +1,21 @@
+{
+  "name": "adgence",
+  "displayName": "Adgence",
+  "description": "Competitor ads, customer reviews, creators, products and your own Meta, Google Ads and TikTok accounts, as 20 expert playbooks on live data from the Adgence MCP.",
+  "author": {
+    "name": "Adgence",
+    "url": "https://tryadgence.com"
+  },
+  "homepage": "https://tryadgence.com/skills",
+  "repository": "https://github.com/adgence/skills",
+  "keywords": [
+    "ads",
+    "marketing",
+    "competitor ads",
+    "meta ads",
+    "google ads",
+    "tiktok",
+    "creative strategy",
+    "ugc"
+  ]
+}

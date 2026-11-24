@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adgence": {
+      "type": "http",
+      "url": "https://tryadgence.com/mcp"
+    }
+  }
+}

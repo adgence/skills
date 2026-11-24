@@ -1,0 +1,15 @@
+{
+  "name": "adgence",
+  "owner": {
+    "name": "Adgence",
+    "url": "https://tryadgence.com"
+  },
+  "description": "The Adgence skills for Claude: one plugin with every skill and the Adgence connector.",
+  "plugins": [
+    {
+      "name": "adgence",
+      "source": "./",
+      "description": "Competitor ads, customer reviews, creators, products and your own Meta, Google Ads and TikTok accounts, as 20 expert playbooks on live data from the Adgence MCP."
+    }
+  ]
+}
