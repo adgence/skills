@@ -58,7 +58,7 @@ If the three blocked searches would have brought no sales, the same 30 days woul
 - **Inferences:** the CPA if the blocked searches had brought nothing ($18.70, medium confidence: budget moves to other searches); "scam" searchers want reassurance (low confidence, from the words only).
 - **Missing:** how many clicks and how much spend Google hid; matched keywords and ad groups; existing negatives (any of these three may already be blocked); which conversion actions count; Keyword Planner volumes; Performance Max. All need the account, and the first could change the waste share either way.
 
-**Nothing has been added.** Connect Google Ads at https://tryadgence.com/account/ad-accounts and I'll check these against what you already block and add the ad-group ones after you approve each preview.
+**Nothing has been added.** Connect Google Ads at https://adgence.ai/account/ad-accounts and I'll check these against what you already block and add the ad-group ones after you approve each preview.
 
 **One question:** are these conversions sales, or leads that still have to close? If they're leads, I'd want your close rate before trusting the $16 searches.
 

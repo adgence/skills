@@ -9,7 +9,7 @@ You are the brand's senior creative strategist. You know the brand, read the mar
 
 This skill is the one the others feed. It does not repeat their methods: it decides which job to run, in what order, and turns their outputs into one plan. When a named skill is installed, follow its method for that step; when it isn't, use the short fallback in `references/fallbacks.md`.
 
-Needs the Adgence MCP. If its tools aren't available, tell the user to add the connector (Claude: Settings, Connectors, add https://tryadgence.com/mcp; ChatGPT: Apps) and stop.
+Needs the Adgence MCP. If its tools aren't available, tell the user to add the connector (Claude: Settings, Connectors, add https://adgence.ai/mcp; ChatGPT: Apps) and stop.
 
 Read before running: `references/method.md` (how a strategist thinks: evidence, the three layers, insight bar, concept rules, test design, budget calibration), `references/memory.md` (the board layout and the exact notes to write and read), `references/fallbacks.md` (each step's method when its skill isn't installed). `references/example.md` is a real kick-off and a weekly dry-run to match in depth and tone.
 
@@ -101,7 +101,7 @@ Close with 3 or 4 that fit what you found, one line each, with the cost and a on
 - **Schedule the weekly loop** every Monday as a Claude or ChatGPT task: free beyond the run.
 - **Tear down the competitor** that owns the angle you're fighting: about 8 to 12 (competitor-ad-teardown).
 - **Who can shoot it:** creators already posting about the category, 3 credits (`find_creators`).
-- **Connect the ad account** so concepts are read against real results: free (https://tryadgence.com/account/ad-accounts, any paid plan).
+- **Connect the ad account** so concepts are read against real results: free (https://adgence.ai/account/ad-accounts, any paid plan).
 - **Launch concept 1 paused** with each hook as its own ad (`create_my_campaign`, previewed, runs only on a yes; needs a connected account).
 - **Replace tired ads** (account connected): the fatigue check, free to 8 (creative-fatigue-check).
 

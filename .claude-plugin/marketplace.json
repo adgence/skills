@@ -2,7 +2,7 @@
   "name": "adgence",
   "owner": {
     "name": "Adgence",
-    "url": "https://tryadgence.com"
+    "url": "https://adgence.ai"
   },
   "description": "The Adgence skills for Claude: one plugin with every skill and the Adgence connector.",
   "plugins": [

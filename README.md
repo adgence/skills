@@ -6,11 +6,11 @@ Works in Claude (chat, Cowork, Claude Code), Cursor, Codex and any agent that re
 
 ## 1. Connect the Adgence MCP
 
-The skills get their data from the Adgence MCP server at `https://tryadgence.com/mcp`. Sign in with your Adgence account when your agent asks; there is no API key to copy.
+The skills get their data from the Adgence MCP server at `https://adgence.ai/mcp`. Sign in with your Adgence account when your agent asks; there is no API key to copy.
 
 - **Claude (claude.ai, desktop, mobile):** Settings, Connectors, Add custom connector, paste the URL. Installing the plugin below also lists the connector on the plugin's Connectors tab.
-- **Claude Code:** `claude mcp add --transport http adgence https://tryadgence.com/mcp`, then `/mcp` to sign in. The plugin below adds it for you.
-- **Cursor and other agents:** add a remote MCP server (Streamable HTTP) with the URL. Setup for every client: https://tryadgence.com/account/connect
+- **Claude Code:** `claude mcp add --transport http adgence https://adgence.ai/mcp`, then `/mcp` to sign in. The plugin below adds it for you.
+- **Cursor and other agents:** add a remote MCP server (Streamable HTTP) with the URL. Setup for every client: https://adgence.ai/account/connect
 
 ## 2. Install all the skills
 
@@ -108,4 +108,4 @@ In full: [shared/guardrails.md](shared/guardrails.md).
 
 ## Credits
 
-The skills are free. The Adgence tools they call use credits from your Adgence account; each skill says its cost before it runs and the real spend after. Plans and free credits: https://tryadgence.com
+The skills are free. The Adgence tools they call use credits from your Adgence account; each skill says its cost before it runs and the real spend after. Plans and free credits: https://adgence.ai
