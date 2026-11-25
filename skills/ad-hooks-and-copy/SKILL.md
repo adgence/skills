@@ -96,6 +96,7 @@ Close with the 3 or 4 that fit, one line each, with cost and a one-word reply:
 - **Turn hook 1 into a creator brief** (the ugc-creative-brief skill, about 1 to 4 credits).
 - **Who's already running this angle:** a competitor teardown (about 8 to 12) or `track` their ads weekly (1 a check) to see which copy survives.
 - **Launch the test paused** in their account: `create_my_campaign` with `text_options` (Meta, 2 to 5 primary texts and up to 5 headlines on one creative) or versions, or `search_ad` on Google. Preview first, create on a yes, then `review_my_ad`. Needs a connected account and a public creative link.
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
 - **Read the comments on your own ads** once they run (`get_my_ad_comments`, free) and feed the objections back in.
 
 If no brand note exists, offer once to save one to the board "Brand" (product, price, offer, guarantee, proof, market, competitors), so every later run is specific without asking.
@@ -133,6 +134,7 @@ If no brand note exists, offer once to save one to the board "Brand" (product, p
 | `get_my_search_terms` / `get_my_keywords` / `get_my_keyword_ideas` | Google: what searchers typed, current keywords, Keyword Planner volume (free) | Google RSA on a connected account |
 | `get_selection` | What the user clicked in a view (free) | "Rewrite this ad" |
 | `create_my_campaign` / `review_my_ad` | Create the test paused after a preview; its review status | The user says launch it |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `save_to_board` | Save to a board (free) | Once per run, with the sources used |
 | `track` / `whats_new` | Weekly checks of a competitor's ads or a page's comments | Next move: watch which copy survives |
 | `account` | Credits, prices, `as_of`, and with `since` what you were charged since then (free) | Before buying grounding; the spend check at the end |

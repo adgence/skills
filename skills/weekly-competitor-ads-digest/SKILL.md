@@ -88,6 +88,7 @@ Close with the 2 to 4 that fit what you found, one line each with the cost and a
 - **Track in your market:** a competitor tracked worldwide (`country` ALL) for a one-market brand: stop it and track it again with your country, so each weekly check reads your market and the extra read goes away. Free to switch.
 - **Brief a reply** to their move for a creator or editor. Free (the ugc-creative-brief skill).
 - **Launch your answer paused** for review (`create_my_campaign`: preview, then confirm on a yes; never in a scheduled run).
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
 
 If no brand note exists, offer once to save one to the board "Brand".
 
@@ -123,6 +124,7 @@ If no brand note exists, offer once to save one to the board "Brand".
 | `find_top_advertisers` | Who advertises most in the niche (3) | Replacing a competitor that doesn't advertise |
 | `save_to_board` / `get_board` | Boards: the baseline note, the brand note | Every run |
 | `create_my_campaign` | A paused campaign after a preview | The user wants their answer launched (interactive only) |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `account` | Credits and prices (free) | Start and end of a run |
 
 ## 7. Rules

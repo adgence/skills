@@ -90,6 +90,7 @@ Close with the 3 or 4 that fit what you found, one line each, with the cost and 
 
 - **Approve the proposals:** "yes to 1 and 3" previews each change (`change_my_ads` without confirm, free), and it runs only after a second yes. Or hand the list to the ad-account-daily-watch skill.
 - **Refresh a tiring winner:** a paused copy in a fresh ad set that keeps its likes and comments (`duplicate_my_ad`: preview, then confirm on a yes). Free.
+- **Boost an organic winner:** a Facebook or Instagram post that beat your ads on engagement this week, run as a paused ad that keeps its likes and comments (`boost_my_post` with the post id, Meta: preview with Meta's dry run, then confirm on a yes). Free.
 - **Read the comments** under the best or worst ad: objections in buyers' words (`get_my_ad_comments`, free; the ad-comment-triage skill).
 - **Cut wasted searches:** the full negatives pass (google-ads-search-terms skill; `get_my_search_terms`, free; adding negatives needs a yes).
 - **Track** the 2 or 3 competitors you named, so next week has a market line: 1 credit a check, weekly (`track` kind ads).
@@ -137,6 +138,7 @@ If no brand note exists, offer once to save the target, margin and competitors t
 | `change_my_ads` | Pause, resume, budgets: preview first (warns on any raise over 20%), runs only on confirm | A next move, after the user's yes to a proposal; never in the report itself |
 | `duplicate_my_ad` | A paused copy of an ad, optionally keeping its social proof | Refreshing a tiring winner, on a yes |
 | `create_my_campaign` | A new campaign or ad, created paused, after a preview | Launching next week's test, on a yes |
+| `boost_my_post` | A Facebook or Instagram post run as an ad, paused, after Meta's dry run (free) | Boosting an organic winner, on a yes |
 | `save_to_board` / `get_board` / `my_boards` | Boards | Saving the week's snapshot; reading the brand note and last week |
 | `account` | Credits and prices (free) | Before and after a run |
 

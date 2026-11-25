@@ -89,6 +89,7 @@ By mode: **Founder** shows 1, 3 (short), 4, 5. **Buyer** shows everything, 2 fir
 Close with the 3 or 4 that fit, one line each with its cost:
 - **Connect Google Ads** (Ad accounts on the Adgence account page): Keyword Planner and the paused build. Free.
 - **Build it paused** now (`create_my_campaign`: preview, then your yes). Free.
+- **Beyond Search:** with the user's own images (Adgence doesn't make them), the same account can get a paused **Performance Max** (`pmax_ad`: headlines, a long headline, descriptions, landscape and square images, a logo), **Demand Gen** (`demand_gen_ad`: images or YouTube videos) or **Display** campaign (`display_ad`). Each is previewed first; Performance Max and Demand Gen get Google's dry run. Free.
 - **Watch the leader's Meta ads** weekly (`track` covers Meta ads, not Google): new batches, switching pushes. 1 credit a check. For their Google ads, re-run `find_competitor_ads` with `platform: "google"` before each review (1 credit): `still_showing` shows what they switched off, as when GlossGenius replaced 93 Search ads on 27 Oct 2026.
 - **Their customers' complaints**, counted, for sharper copy. 1 to 3 credits.
 - **Prices on Google Shopping** before you claim a price edge. 1 credit (`find_products`).

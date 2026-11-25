@@ -81,6 +81,7 @@ Close with the 3 or 4 that fit what you found, one line each, with the cost and 
 - **Another reference** with stronger evidence: proven ads in their niche (1 credit, `find_competitor_ads`) or breakout organic videos (up to 3, `find_viral_videos`).
 - **Brief the whole set:** every ad on a board as a batch. 0 to 1 credit per new ad watched.
 - **Launch it paused** once filmed: a paused test in their Meta or TikTok account with each hook as its own ad (`create_my_campaign`, preview then confirm on a yes), or the creator's post as a Spark Ad (`spark_boost_tiktok`, same rule). Needs a connected account (`my_ad_accounts`).
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
 - **Judge it later:** once it runs, `get_my_ads` for hook rate and CPA, `watch_my_ad` to compare the cut against this brief.
 
 If no brand note exists, offer once to save one to the board "Brand".
@@ -130,6 +131,7 @@ If no brand note exists, offer once to save one to the board "Brand".
 | `get_tiktok_shop_product` | One TikTok Shop product and the videos selling it (1) | TikTok Shop references |
 | `my_ad_accounts` / `get_my_ads` / `watch_my_ad` | The user's accounts, results and own ads watched | The user's own winner as the reference; judging the test |
 | `create_my_campaign` / `spark_boost_tiktok` | A paused test, or a creator post as a Spark Ad, after a preview | The video is filmed and the user says launch |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `account` | Credits, prices, `as_of`, and with `since` what was spent since (free) | Start and end of every run; before Full |
 
 ## 8. Rules

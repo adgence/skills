@@ -103,6 +103,8 @@ Close with 3 or 4 that fit what you found, one line each, with the cost and a on
 - **Who can shoot it:** creators already posting about the category, 3 credits (`find_creators`).
 - **Connect the ad account** so concepts are read against real results: free (https://adgence.ai/account/ad-accounts, any paid plan).
 - **Launch concept 1 paused** with each hook as its own ad (`create_my_campaign`, previewed, runs only on a yes; needs a connected account).
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
+  - **Other ways in:** a TikTok account with a pixel can run the concept as a **Smart+** campaign (`smart_plus`: TikTok automates targeting and bidding; goal conversions, lead_generation or app_promotion, one video). A store with a Meta catalog can retarget product viewers with a **catalog ad** (`get_my_catalogs`, goal `catalog_sales`, copy only). A Facebook or Instagram post already doing well organically can be **boosted** with its likes kept (`boost_my_post`).
 - **Replace tired ads** (account connected): the fatigue check, free to 8 (creative-fatigue-check).
 
 ## 6. Before you answer: self-check
@@ -140,6 +142,8 @@ Close with 3 or 4 that fit what you found, one line each, with the cost and a on
 | `watch_my_ad` | One of the user's ads watched, with an `own_` id for DNA (1) | The top spenders and the biggest loser |
 | `track` / `my_tracking` / `whats_new` | Weekly checks of competitors' ads or a keyword (1 a check); what's tracked; what changed (free) | Setting up the weekly loop; reading the week |
 | `create_my_campaign` / `duplicate_my_ad` / `change_my_ads` | A paused new ad in an existing ad set; a paused copy; pause or budget. Previewed, then run only on a yes | Media buyer: launching replacements, stopping losers |
+| `boost_my_post` / `get_my_catalogs` | A Facebook or Instagram post run as a paused ad; Meta catalogs and product sets (free) | Boosting an organic winner; a catalog ad for a store |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `account` | Credits and prices (free) | Before a Full kick-off |
 
 ## 8. Rules

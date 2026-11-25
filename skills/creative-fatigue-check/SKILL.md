@@ -95,6 +95,7 @@ Close with the 3 or 4 that fit what you found, one line each, with cost and a on
 - **Hooks for the tired winner:** 5 new openings on the same body. Free (the ad-hooks-and-copy skill).
 - **Launch the replacement paused** into the same ad set (`create_my_campaign` with `into_ad_set_id`: preview, then confirm on a yes). Free.
 - **Restart a tired winner in a new audience, paused, keeping its likes and comments** (`duplicate_my_ad` with `into_ad_set_id` and `keep_social_proof`, Meta only: preview, then confirm on a yes). Free. Only for audience saturation (method §10).
+- **Let the platform rotate creative:** a store with a Meta catalog can run a **catalog ad** that builds itself from the product feed, so one image can't wear out (`get_my_catalogs`, goal `catalog_sales`, copy only); on TikTok with a pixel, a **Smart+** campaign rotates the videos you give it (`smart_plus`). Both paused after a preview. Free.
 - **Pause the loser** once its replacement spends (`change_my_ads`: preview, then confirm). Free.
 - **More replacement structures:** competitors' long runners in your niche, watched. About 4 credits.
 - **Their comments:** what buyers say under the tired ad, sorted into objections for the next hooks. Free (the ad-comment-triage skill).
@@ -135,6 +136,7 @@ If no brand note exists, offer once to save one to the board "Brand" with their 
 | `find_viral_videos` | Top organic videos in a niche (up to 3) | New hook or format ideas for a retired concept |
 | `get_selection` | What the user clicked in a view (free) | "This ad" |
 | `create_my_campaign` | A new ad, ad set or campaign, created paused, after a preview | Launching the replacement |
+| `get_my_catalogs` | Meta catalogs and their product sets (free) | A catalog ad as the replacement for a store |
 | `duplicate_my_ad` | Copies a Meta ad, paused, optionally keeping likes and comments, after a preview | Restarting a tired winner in a new audience |
 | `change_my_ads` | Pause, resume or budgets, after a preview | Pausing a tired ad or loser once the replacement spends |
 | `review_my_ad` | Review verdict and placement previews of an ad (free) | Before switching a replacement on |

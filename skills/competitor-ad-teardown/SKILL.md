@@ -95,6 +95,7 @@ Close with the 3 or 4 that fit what you found, one line each, with the cost and 
 - **Who else competes** for the same buyers. 3 credits (`find_top_advertisers`).
 - **Brief test 1** for a creator or editor. Free (the ugc-creative-brief skill, or here).
 - **Launch test 1 paused** in their ad account for review (`create_my_campaign`: preview, then confirm on a yes).
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
 - **Export the testing matrix** to Google Sheets if their Sheets MCP is connected, or the board.
 
 If no brand note exists, offer once to save one to the board "Brand", so every later run is specific to them.
@@ -143,6 +144,7 @@ For software and apps, use the software tags in method §4 (free plan, trial, de
 | `my_tracking` | What the user already tracks, per item and country (free) | Start of a run, so "track them" isn't offered for a brand already tracked |
 | `my_ad_accounts` / `get_my_ads` | The user's own accounts and results (free) | You versus them |
 | `create_my_campaign` | A campaign or ad, created paused, after a preview | The user wants test 1 launched |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `save_to_board` / `get_board` | Boards | Saving; reading the brand note |
 | `account` | Credits and prices; `as_of`, and `since` for `spent_since` (free) | Start of a run; cross-checking the spend |
 

@@ -93,6 +93,7 @@ Close with the 3 or 4 that fit what you found, one line each, with the cost and 
 - **Who else competes**, when the set was thin. 3 credits (`find_top_advertisers`).
 - **Tear down the competitor that owns the trust gap.** About 8 to 12 credits (the competitor-ad-teardown skill).
 - **Launch test 1 paused** in their ad account for review (`create_my_campaign`: preview, then confirm on a yes).
+  - **Who it reaches, before the preview:** `get_my_audiences` (free) lists the account's customer lists, website visitors and lookalikes. On a prospecting test, leave existing customers out (`targeting.audience_exclude`); to start warm, use a lookalike (`audience_include`). A brand selling housing, jobs, credit, financial products, politics or gambling must set `special_ad_categories` (Meta: all six; TikTok: housing, jobs, credit), which removes age, gender and ZIP targeting.
 
 If no brand note exists, offer once to save one to the board "Brand", so every later run knows what they can claim.
 
@@ -138,6 +139,7 @@ The difference: both sides counted with bases, a reason the gap exists, the comp
 | `my_ad_accounts` / `get_my_ads` / `get_my_ad_comments` | The user's own ads and the comments under them (free) | Deep: their own objections and angles |
 | `track` / `whats_new` | Weekly checks of a competitor's ads (with `country`) or a topic (1 a check; `whats_new` `mark_read` to clear what was seen) | Next move: a race; keep listening |
 | `create_my_campaign` | A paused campaign or ad after a preview | The user wants test 1 launched |
+| `get_my_audiences` | The account's customer lists, website visitors and lookalikes, with sizes (free) | Choosing who a launched test reaches or leaves out |
 | `save_to_board` / `get_board` / `my_boards` | Boards | Saving; reading the brand note and "Customer language" |
 | `account` | Credits, prices, `as_of`, and with `since` what this user spent since then (free) | Before and after a run |
 
